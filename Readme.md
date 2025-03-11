@@ -1,11 +1,8 @@
 # 🌈 Holi Magic Wish: A Digital Color Festival Experience
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/holi-magic-wish?style=social)](https://github.com/yourusername/holi-magic-wish) 
-[![Instagram](https://img.shields.io/badge/Follow%20%40yourusername-EC407A?logo=instagram)](https://instagram.com/yourusername)
-
 **Make Holi unforgettable** with this interactive website that combines code, colors, and creativity! Perfect for wishing your special someone in 2024's most techy-romantic way 💻❤️
 
-👉 **Live Demo:** [Click Here](https://yourusername.github.io/holi-magic-wish)
+👉 **Live Demo:** [Click Here](https://holi-magic-wish.netlify.app)
 
 ![Demo GIF](./img/output.png)  
 
