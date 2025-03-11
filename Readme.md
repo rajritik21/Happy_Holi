@@ -1,6 +1,6 @@
 # 🎨 Holi Magic Wish: A Digital Festival of Colors
 
-**Make Holi unforgettable** with this interactive website that blends **technology, creativity, and festive joy!** Perfect for sending a unique, techy-romantic Holi wish in 2024! 💻❤️
+**Make Holi unforgettable** with this interactive website that blends **technology, creativity, and festive joy!** Perfect for sending a unique, techy-romantic Holi wish in 2025! 💻❤️
 
 ---
 
