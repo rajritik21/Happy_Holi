@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" type="module" defer></script>
-    <title>Happy Holi | Aoudumber Bade</title>
+    <title>Happy Holi</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -148,7 +148,7 @@
             height: 180px;
             width: 180px;
             position: absolute;
-            background: url('./img/r1.png');
+            background: url('./img/r1.jpg');
             background-size: cover;
             top: 10px;
             left: 10px;
@@ -183,14 +183,14 @@
         </div>
         <div class="container">
             <div class="cloud">
-                <h2>Happy Holii</h2>
+                <h2>ʜᴀᴘᴘʏ ʜᴏʟɪ ᴍᴀᴅᴀᴍ ᴊɪɪ 🔫🥳🌹</h2>
             </div>
         </div>
     </div>
 
     <script>
         function randomText() {
-            var text = ["Happy Holi", "Rashmika"];
+            var text = ["Happy Holi", "Princess 👸🏻⋆.˚🦋༘⋆˖𓍢ִ໋🌷͙֒✧˚.🎀༘⋆"];
             return text[Math.floor(Math.random() * text.length)];
         }
 
@@ -202,21 +202,21 @@
 
             let left = Math.floor(Math.random() * 300);
             let size = Math.random() * 1.5;
-            let duration = Math.random() * 1;
+            let duration = Math.random() * 2 + 2;
 
             e.innerText = randomText();
             e.style.left = left + 'px';
-            e.style.fontSize = 0.5 + size + 'em';
-            e.style.animationDuration = 1 + duration + 's';
+            e.style.fontSize = 2.5 + size + 'em';
+            e.style.animationDuration = 2 + duration + 's';
 
             setTimeout(function () {
                 cloud.removeChild(e);
-            }, 5000);
+            }, 7000);
         }
 
         setInterval(function () {
             rain();
-        }, 150);
+        }, 300);
     </script>
 </body>
 </html>

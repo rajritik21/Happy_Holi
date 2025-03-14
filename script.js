@@ -61,8 +61,8 @@ function createBubble() {
 
 	bb.className = "bubble";
 	bb.dataset.id = id;
-	bb.dataset.speed = 2 + Math.random();
-	bb.dataset.poptime = currentTime + ( 3 + 2 * Math.random() ) * 1000;
+	bb.dataset.speed = 1 + Math.random();
+	bb.dataset.poptime = currentTime + ( 5 + 3 * Math.random() ) * 1000;
 	bb.dataset.wave = Math.random();
 	st.top = bubbleGenY + "px";
 	st.left = bubbleGenX + ( bubbleGenW / -2 + Math.random() * bubbleGenW ) + "px";
@@ -77,10 +77,10 @@ function createBubble() {
 
 function frame() {
 	currentTime = Date.now();
-	if ( currentTime - previousTime > secForNextBubble * 1000 ) {
+	if ( currentTime - previousTime > secForNextBubble * 2000 ) {
 		createBubble();
 		previousTime = currentTime;
-		secForNextBubble = .1 * Math.random();
+		secForNextBubble = .2 * Math.random();
 	}
 	bubbles.forEach( ( bb, id ) => {
 		const st = bb.style,
@@ -97,11 +97,11 @@ function frame() {
 		st.width =
 		st.height = w + wInc + "px";
 		bb.dataset.wave = bbWave + .1;
-		bb.dataset.speed = Math.max( .04, yInc - .005 );
+		bb.dataset.speed = Math.max( .02, yInc - .002 );
 		if ( poptime < currentTime ) {
 			bb.remove();
 			bubbles.delete( id );
-		} else if ( poptime - 1 * 1000 < currentTime ) {
+		} else if ( poptime - 2 * 1000 < currentTime ) {
 			bb.classList.add( "pop" );
 		}
 	} );
